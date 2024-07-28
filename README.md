@@ -1,5 +1,9 @@
-# RaindropClarity
-[ECCV2024] "Raindrop Clarity: A Dual-Focused Dataset for Day and Night Raindrop Removal"
+# RaindropClarity (ECCV'2024)
+
+## Introduction
+> [Raindrop Clarity: A Dual-Focused Dataset for Day and Night Raindrop Removal](https://arxiv.org/abs/2407.16957)<br>
+> European Conference on Computer Vision (ECCV'2024)
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2407.16957)
 
 ### Abstract
  Existing raindrop removal datasets have two shortcomings. First, they consist of images captured by cameras with a focus on the background, leading to the presence of blurry raindrops. To our knowledge, none of these datasets include images where the focus is specifically on raindrops, which results in a blurry background. Second, these datasets predominantly consist of daytime images, thereby lacking nighttime raindrop scenarios. Consequently, algorithms trained on these datasets may struggle to perform effectively in raindrop-focused or nighttime scenarios. The absence of datasets specifically designed for raindrop-focused and nighttime raindrops constrains research in this area. In this paper, we introduce a large-scale, real-world raindrop removal dataset called Raindrop Clarity. Raindrop Clarity comprises 15,186 high-quality pairs/triplets (raindrops, blur, and background) of images with raindrops and the corresponding clear background images. There are 5,442 daytime raindrop images and 9,744 nighttime raindrop images. Specifically, the 5,442 daytime images include 3,606 raindrop- and 1,836 background-focused images. While the 9,744 nighttime images contain 4,838 raindrop- and 4,906 background-focused images. Our dataset will enable the community to explore background-focused and raindrop-focused images, including challenges unique to daytime and nighttime conditions. 
@@ -7,7 +11,9 @@
 ## RaindropClarity Dataset
  |Day_Train   |[Dropbox](https://www.dropbox.com/scl/fi/qes7r934c10qzb21funoj/DayRainDrop_Train.zip?rlkey=bdqa53wgvmhj9x1yf40q0c1p7&st=4taffjkx&dl=0) | [BaiduPan](https://pan.baidu.com/s/1-vwhYA7jEDPAYHlznhcHCA?pwd=j9ay) code:j9ay |
  |:-----------:| :-----------: | :-----------: |
+ |Day_Test|[Dropbox](https://www.dropbox.com/scl/fi/ft0pvf8pdkueedxp9068n/DayRainDrop_Test_woGT.zip?rlkey=jneh1i9no2iedyttv6514jcen&st=jnsnyslw&dl=0)|[BaiduPan](https://pan.baidu.com/s/1np_4nM19-czzW3Pe3JjMsQ?pwd=dten) code:dten|
  |Night_Train|[Dropbox](https://www.dropbox.com/scl/fi/cw3ji53qxy18sepuk6wcp/NightRainDrop_Train.zip?rlkey=r2yn224ryek9wxkbchedeg13j&st=jzo93x80&dl=0)| [BaiduPan](https://pan.baidu.com/s/13x6-UzqxaJG7tKv2WMyMuQ?pwd=hmsw) code:hmsw| 
+ |Night_Test|[Dropbox](https://www.dropbox.com/scl/fi/9y496nqvcuqh8sis24h1e/NightRainDrop_Test_woGT.zip?rlkey=6jcid5v1gjtk0u9o1gcrrliuu&st=4k95zm81&dl=0)|[BaiduPan](https://pan.baidu.com/s/110YZN6QfYLbiMYxr3gN6tQ?pwd=nten) code:nten|
 
 
 ## Pre-trained Models: [BaiduPan](https://pan.baidu.com/s/1tzJX--WD7YsYbpc9nGBQ0w?pwd=i3dg) code:i3dg and [Results](https://pan.baidu.com/s/1kVxJK0HgSDe5pglQ2uTj3A?pwd=outp) code:outp
@@ -59,3 +65,23 @@ CUDA_VISIBLE_DEVICES=1 python eval_diffusion_day_atgan.py --sid "$sid"
 CUDA_VISIBLE_DEVICES=1,2 python train.py --config daytime_64.yml --test_set Raindrop_DiT
 ```
 please change `daytime_64.yml`,`daytime_128.yml`,`daytime_256.yml` according to `model_name` and `image_size`.
+
+## Acknowledgments
+Code is implemented based [WeatherDiffusion](https://github.com/IGITUGraz/WeatherDiffusion), we would like to thank them.
+
+## License
+The code and models in this repository are licensed under the MIT License for academic and other non-commercial uses.<br>
+For commercial use of the code and models, separate commercial licensing is available. Please contact:
+- Yeying Jin (jinyeying@u.nus.edu)
+- Jonathan Tan (jonathan_tano@nus.edu.sg)
+
+### Citation
+If this work is useful for your research, please cite our paper. 
+```BibTeX
+@article{jin2024raindrop,
+  title={Raindrop Clarity: A Dual-Focused Dataset for Day and Night Raindrop Removal},
+  author={Jin, Yeying and Li, Xin and Wang, Jiadong and Zhang, Yan and Zhang, Malu},
+  journal={arXiv preprint arXiv:2407.16957},
+  year={2024}
+}
+```
