@@ -1,0 +1,12 @@
+name: pt1102
+channels:
+  - defaults
+dependencies:
+  - python=3.7
+  - torchaudio
+  - pytorch=1.10.2
+  - cudatoolkit=11.3
+  - torchvision
+  - jupyter
+  - notebook
+  - einops
