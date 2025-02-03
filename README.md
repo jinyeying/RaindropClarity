@@ -9,6 +9,9 @@
 [[Slides]](https://github.com/jinyeying/RaindropClarity/blob/main/poster_slides/RaindropClarity_PPT.pdf) 
 [[Video]](https://www.youtube.com/watch?v=LSGvCuT46XU)
 
+## NTIRE Workshop and Challenges @ CVPR 2025
+The first Challenge on Day and Night Raindrop Removal for Dual-Focused Images is available at (https://codalab.lisn.upsaclay.fr/competitions/21345)
+
 ### Abstract
  Existing raindrop removal datasets have two shortcomings. First, they consist of images captured by cameras with a focus on the background, leading to the presence of blurry raindrops. To our knowledge, none of these datasets include images where the focus is specifically on raindrops, which results in a blurry background. Second, these datasets predominantly consist of daytime images, thereby lacking nighttime raindrop scenarios. Consequently, algorithms trained on these datasets may struggle to perform effectively in raindrop-focused or nighttime scenarios. The absence of datasets specifically designed for raindrop-focused and nighttime raindrops constrains research in this area. In this paper, we introduce a large-scale, real-world raindrop removal dataset called Raindrop Clarity. Raindrop Clarity comprises 15,186 high-quality pairs/triplets (raindrops, blur, and background) of images with raindrops and the corresponding clear background images. There are 5,442 daytime raindrop images and 9,744 nighttime raindrop images. Specifically, the 5,442 daytime images include 3,606 raindrop- and 1,836 background-focused images. While the 9,744 nighttime images contain 4,838 raindrop- and 4,906 background-focused images. Our dataset will enable the community to explore background-focused and raindrop-focused images, including challenges unique to daytime and nighttime conditions. 
 
@@ -82,10 +85,12 @@ For commercial use of the code and models, separate commercial licensing is avai
 ### Citation
 If this work is useful for your research, please cite our paper. 
 ```BibTeX
-@article{jin2024raindrop,
+@inproceedings{jin2024raindrop,
   title={Raindrop Clarity: A Dual-Focused Dataset for Day and Night Raindrop Removal},
   author={Jin, Yeying and Li, Xin and Wang, Jiadong and Zhang, Yan and Zhang, Malu},
-  journal={arXiv preprint arXiv:2407.16957},
-  year={2024}
+  booktitle={European Conference on Computer Vision},
+  pages={1--17},
+  year={2024},
+  organization={Springer}
 }
 ```
