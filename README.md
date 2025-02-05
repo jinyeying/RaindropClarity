@@ -18,9 +18,7 @@ The first challenge on Day and Night Raindrop Removal for Dual-Focused Images is
 ## RaindropClarity Dataset
  |Day_Train   |[Dropbox](https://www.dropbox.com/scl/fi/qes7r934c10qzb21funoj/DayRainDrop_Train.zip?rlkey=bdqa53wgvmhj9x1yf40q0c1p7&st=4taffjkx&dl=0) | [BaiduPan](https://pan.baidu.com/s/1-vwhYA7jEDPAYHlznhcHCA?pwd=j9ay) code:j9ay |[GoogleDrive](https://drive.google.com/file/d/1lHOumI4wDsJfgGnDPOCXM6h_C1F5ZQEA/view?usp=sharing)|
  |:-----------:| :-----------: | :-----------: |:-----------: |
- |Day_Test|[Dropbox](https://www.dropbox.com/scl/fi/ft0pvf8pdkueedxp9068n/DayRainDrop_Test_woGT.zip?rlkey=jneh1i9no2iedyttv6514jcen&st=jnsnyslw&dl=0)|[BaiduPan](https://pan.baidu.com/s/1np_4nM19-czzW3Pe3JjMsQ?pwd=dten) code:dten|[GoogleDrive](https://drive.google.com/file/d/1v-0oJYxyaRnaOLbrcydZF5juI8XMQthc/view?usp=sharing)|
  |Night_Train|[Dropbox](https://www.dropbox.com/scl/fi/cw3ji53qxy18sepuk6wcp/NightRainDrop_Train.zip?rlkey=r2yn224ryek9wxkbchedeg13j&st=jzo93x80&dl=0)| [BaiduPan](https://pan.baidu.com/s/13x6-UzqxaJG7tKv2WMyMuQ?pwd=hmsw) code:hmsw| [GoogleDrive](https://drive.google.com/file/d/1_ruwsBCzbOEkpqcqHIeKoyCg6P2Sxclr/view?usp=sharing)|
- |Night_Test|[Dropbox](https://www.dropbox.com/scl/fi/9y496nqvcuqh8sis24h1e/NightRainDrop_Test_woGT.zip?rlkey=6jcid5v1gjtk0u9o1gcrrliuu&st=4k95zm81&dl=0)|[BaiduPan](https://pan.baidu.com/s/110YZN6QfYLbiMYxr3gN6tQ?pwd=nten) code:nten|[GoogleDrive](https://drive.google.com/file/d/1TaYnMhO79LmGoGDbmaeaCloLlIP4geKs/view?usp=sharing)|
 
 
 ## Pre-trained Models: [BaiduPan](https://pan.baidu.com/s/1tzJX--WD7YsYbpc9nGBQ0w?pwd=i3dg) code:i3dg and [Results](https://pan.baidu.com/s/1kVxJK0HgSDe5pglQ2uTj3A?pwd=outp) code:outp
