@@ -34,6 +34,12 @@
 | :----: | :-----------: | :----------: |:---------------: |  :----------: |
 | Raindrop + Restoration| [Dropbox](https://www.dropbox.com/scl/fo/oy0s69m4jienlvjpu52wi/ACnxDbcyX2K0trBdEJa4DdQ?rlkey=jn0wkbaf8d4xv8rqixhhuhymy&dl=0) | [BaiduPan](https://pan.baidu.com/s/1tzJX--WD7YsYbpc9nGBQ0w?pwd=i3dg) code:i3dg| [Dropbox](https://www.dropbox.com/scl/fo/mw63y7ss04404pb4vnd1r/AOanObkvsJmUFZEGYmud--c?rlkey=p9hjkawn7vn34hahycxjigv6l&st=aak7ifwh&dl=0) | [BaiduPan](https://pan.baidu.com/s/1kVxJK0HgSDe5pglQ2uTj3A?pwd=outp) code:outp|  
 
+1. the checkpoint RainDrop_DiT_ddpm.pth.tar is patch_size=4, image_size:64,
+[transformer2d.py](https://github.com/jinyeying/RaindropClarity/blob/b825ceeb6f2e1df6d33a5b57fe01dece43d3d98a/models/transformer2d.py#L455), follow patch_size=4
+
+2. the checkpoint RainDrop_DiT2_ddpm.pth.tar is patch_size=2, image_size:64, 
+[transformer2d.py](https://github.com/jinyeying/RaindropClarity/blob/b825ceeb6f2e1df6d33a5b57fe01dece43d3d98a/models/transformer2d.py#L452), follow patch_size=2
+
 ## Evaluation
 ```
 python calculate_psnr_ssim_sid.py
@@ -56,12 +62,12 @@ bash run_eval_diffusion_day.sh
 ```
 bash run_eval_diffusion_night.sh
 ```
-Inside script, please change `model_name` accordingly. 
+Inside the script, please change `model_name` accordingly. 
 ```
-CUDA_VISIBLE_DEVICES=7 python eval_diffusion_day_dit.py --sid "$sid"
+CUDA_VISIBLE_DEVICES=1 python eval_diffusion_day_dit.py --sid "$sid"
 ```
 ```
-CUDA_VISIBLE_DEVICES=6 python eval_diffusion_day_rdiffusion.py --sid "$sid"
+CUDA_VISIBLE_DEVICES=1 python eval_diffusion_day_rdiffusion.py --sid "$sid"
 ```
 ```
 CUDA_VISIBLE_DEVICES=2 python eval_diffusion_day_restomer.py --sid "$sid"
