@@ -18,8 +18,12 @@
  |:-----------:| :-----------: | :-----------: |:-----------: |
  |Night_Train|[Dropbox](https://www.dropbox.com/scl/fi/cw3ji53qxy18sepuk6wcp/NightRainDrop_Train.zip?rlkey=r2yn224ryek9wxkbchedeg13j&st=jzo93x80&dl=0)| [BaiduPan](https://pan.baidu.com/s/13x6-UzqxaJG7tKv2WMyMuQ?pwd=hmsw) code:hmsw| [GoogleDrive](https://drive.google.com/file/d/1_ruwsBCzbOEkpqcqHIeKoyCg6P2Sxclr/view?usp=sharing)|
 
-## Validation Data (only for Workshop and Challenges)
+## Validation Data (only for Workshop and Challenges) (do not distinguish day and night)
 |Day + Night |[Dropbox](https://www.dropbox.com/scl/fo/74s4wpvhrx1ag0rvsuq9q/ALyqJEFapXZ7QBcOyV2uCSs?rlkey=hsu5ktfetpjh986rvkmxexule&st=k9m9wgxw&dl=0) |[BaiduPan](https://pan.baidu.com/s/1gwMC3uN6UrJ23xn24NNVdg?pwd=vali) code:vali | [GoogleDrive](https://drive.google.com/drive/folders/1KFInlF3cSZXxUIK4N9YvCC0B4N9lXAhB?usp=sharing)|
+|:-----------:|:-----------:| :-----------: | :-----------: |
+
+## Challenge Test Data (only for Workshop and Challenges) (do not distinguish day and night)
+|Day + Night |[Dropbox](https://www.dropbox.com/scl/fo/5j5fb5pk7yn0tf61npq09/AMLYar9xGEfsD512emGBT80?rlkey=eusl5jkrhm5fdphzntmlzmj6r&st=mgw8u6ie&dl=0) |[BaiduPan](https://pan.baidu.com/s/1isQiEjfmnWCUb0EC0MTflQ?pwd=ntir) code:ntir | [GoogleDrive](https://drive.google.com/file/d/1yM2FwraaLx3Ql4CpvYqLYwM-DoONmC5e/view?usp=sharing)|
 |:-----------:|:-----------:| :-----------: | :-----------: |
 
 # Abstract @ ECCV’2024
