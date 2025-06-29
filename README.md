@@ -106,7 +106,7 @@ CUDA_VISIBLE_DEVICES=1,2 python train.py --config daytime_64.yml --test_set Rain
 please change `daytime_64.yml`,`daytime_128.yml`,`daytime_256.yml` according to `model_name` and `image_size`.
 
 ## Acknowledgments
-Code is implemented based [WeatherDiffusion](https://github.com/IGITUGraz/WeatherDiffusion), we would like to thank them.
+The code is implemented based on [WeatherDiffusion](https://github.com/IGITUGraz/WeatherDiffusion), we would like to thank them.
 
 ## License
 The code and models in this repository are licensed under the MIT License for academic and other non-commercial uses.<br>
@@ -117,6 +117,13 @@ For commercial use of the code and models, separate commercial licensing is avai
 ### Citation
 If this work is useful for your research, please cite our paper. 
 ```BibTeX
+@inproceedings{li2025ntire,
+  title={NTIRE 2025 challenge on day and night raindrop removal for dual-focused images: Methods and results},
+  author={Li, Xin and Jin, Yeying and Jin, Xin and Wu, Zongwei and Li, Bingchen and Wang, Yufei and Yang, Wenhan and Li, Yu and Chen, Zhibo and Wen, Bihan and others},
+  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+  pages={1172--1183},
+  year={2025}
+}
 @inproceedings{jin2024raindrop,
   title={Raindrop Clarity: A Dual-Focused Dataset for Day and Night Raindrop Removal},
   author={Jin, Yeying and Li, Xin and Wang, Jiadong and Zhang, Yan and Zhang, Malu},
